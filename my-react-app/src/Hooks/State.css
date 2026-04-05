@@ -1,0 +1,38 @@
+.counter-box {
+    border: 2px solid black;
+    padding: 20px;
+    width: 200px;
+    text-align: center;
+    margin: auto;
+    margin-top: 50px;
+    background-color: skyblue;
+    display: flex;
+
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: Arial, sans-serif;
+}
+
+button {
+    padding: 10px 15px;
+    margin: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background-color: #4CAF50;
+    color: white;
+    transition: background-color 0.3s ease;
+}
+
+/* .child-component {
+    border: 1px dashed gray;
+    padding: 10px;
+    margin-top: 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+} */
